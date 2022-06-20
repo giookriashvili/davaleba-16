@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/31/21/17/landscape-1296307_960_720.jpg);
+    background-image: -o-linear-gradient(5);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+
+    p {
+        font-size: 20px;
+    }
+
+    .backgroundButton {
+        background-color: rgb(230, 197, 53);
+        border: none;
+        border-radius: 15px;
+        padding: 6px;
+        color: white;
+        width: 170px;
+    }
+
+    .borderButton {
+        border: 1px solid rgb(230, 197, 53);
+        border-radius: 15px;
+        padding: 5px;
+        color: rgb(230, 197, 53);
+        width: 170px;
+        background: none;
+    }
+}
+
+.container {
+    display: flex;
+
+    i {
+        font-size: 40px;
+        color: rgb(230, 197, 53);
+    }
+
+    div {
+        text-align: center;
+        color: rgb(94, 94, 94);
+    }
+
+}
+
+
+.yellowLine {
+    background-color: rgb(230, 197, 53);
+    width: 50px;
+    height: 4px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.services {
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    color: rgb(94, 94, 94);
+    text-align: center;
+
+    .row {
+        h3::first-letter {
+            font-size: 50px;
+        }
+
+        div {
+            text-align: left;
+        }
+    }
+
+}
+
+.portfolio {
+    text-align: center;
+    color: rgb(94, 94, 94);
+
+    img {
+        width: 100%;
+    }
+}
+
+.carousel {
+    height: 500px;
+
+    img {
+        height: 500px;
+    }
+}
+
+.blog {
+    text-align: center;
+    color: rgb(94, 94, 94);
+
+    .row {
+        div {
+            text-align: left;
+
+            .miniFlex {
+                display: flex;
+
+                i {
+                    font-size: 20px;
+                    color: rgb(94, 94, 94);
+                }
+            }
+
+            img {
+                width: 350px;
+                height: 200px;
+            }
+        }
+    }
+}
+
+.contact {
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.formsFlexbox {
+    display: flex;
+
+    div {
+        width: 50%;
+        text-align: left;
+
+        input[type=text] {
+            background: none;
+            border: 1px solid rgb(230, 197, 53);
+            color: rgb(230, 197, 53);
+            border-radius: 0px;
+        }
+
+        textarea {
+            background: none;
+            border: 1px solid rgb(230, 197, 53);
+            color: rgb(230, 197, 53);
+            border-radius: 0px;
+        }
+    }
+}
